@@ -63,5 +63,4 @@ public class RemoveElement {
     }
 
     //844. 比较含退格的字符串
-
 }
