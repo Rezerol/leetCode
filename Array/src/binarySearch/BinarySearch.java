@@ -2,6 +2,32 @@ package binarySearch;
 
 public class BinarySearch {
 
+    /**
+     * 二分查找规律
+     *
+     * 初始化：
+     * int left = 0;
+     * int right = nums.length - 1;
+     * 循环条件：
+     * left <= right
+     * 右边取值：
+     * right = mid - 1;
+     * 左边取值：
+     * left = mid + 1;
+     * 查询条件：
+     * 找 >= target 时， nums[mid] >= target时，right = mid - 1;
+     * 找 >  target 时， nums[mid] >  target时，right = mid - 1;
+     * 找 <= target 时， nums[mid] <= target时，left = mid + 1;
+     * 找 <  target 时， nums[mid] <  target时，left = mid + 1;
+     * 返回值：
+     * 求大于（含等于）， 返回left
+     * 求小于（含等于）， 返回right
+     * 核心思想：[left, right]为满足条件值区间范围，
+     * 所以找左边界(即：大于等于)，是left, 找右边界(即：小于等于)，是right
+     *
+     */
+
+
     //704.二分查找
     public static int search(int[] nums, int target) {
 
