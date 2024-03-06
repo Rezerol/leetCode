@@ -3,7 +3,7 @@ package sortedSquares;
 public class SortedSequares {
 
     //977.有序数组的平方, 双指针法
-    public int[] sortedSquares(int[] nums) {
+    public static int[] sortedSquares(int[] nums) {
         int left = 0;
         int right = nums.length - 1;
         int[] res = new int[nums.length];

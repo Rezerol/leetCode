@@ -63,7 +63,7 @@ public class RemoveElement {
     }
 
     //844. 比较含退格的字符串
-    public boolean backspaceCompare(String s, String t) {
+    public static boolean backspaceCompare(String s, String t) {
         int i = s.length() - 1; int j = t.length() - 1;
         int skipS = 0; int skipT = 0;
         while(i >= 0  || j >= 0) {
@@ -109,7 +109,7 @@ public class RemoveElement {
     }
 
     //977.有序数组的平方
-    public int[] sortedSquares(int[] nums) {
+    public static int[] sortedSquares(int[] nums) {
         int left = 0; int right = nums.length - 1;
         int[] res = new int[nums.length];
         int pos = nums.length - 1;
