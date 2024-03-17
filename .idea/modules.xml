@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/HashTable/HashTable.iml" filepath="$PROJECT_DIR$/HashTable/HashTable.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doublePoint/doublePoint.iml" filepath="$PROJECT_DIR$/doublePoint/doublePoint.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/leetCode.iml" filepath="$PROJECT_DIR$/.idea/leetCode.iml" />
     </modules>
   </component>
